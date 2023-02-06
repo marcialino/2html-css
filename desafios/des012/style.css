@@ -20,7 +20,7 @@ padding-top: 40px;
 
 }
 
-header > h3{
+a > h3{
     color:white;
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
@@ -29,7 +29,7 @@ header > h3{
     
 }
 .ar p{
-    background-color: white;
+    background-color: rgb(206, 41, 41);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
     font-weight: bolder;
@@ -39,16 +39,17 @@ header > h3{
     margin-left: 10px;
     line-height: 50px;
     height: 400px;
+
     
 
 }
 #col p{
     background-image:url(imagens/background001.jpg);
     color: white;
-    margin-top: 100px;
+    margin-top: 300px;
     background-size: 100% 100%;
     position: relative;
-    padding-top: 100px;
+    padding-top: 0px;
     padding-left: 12px;
     margin-left: -4px;
     line-height: 50px;
@@ -66,9 +67,9 @@ header > h3{
     font-weight: bolder;
     font-style: italic;
     font-size: 20px;
-    margin-top: 160px;
+  
     margin-left: 10px;
-    position: absolute;
+    
    
        
  }

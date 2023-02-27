@@ -32,7 +32,7 @@ span#burguer:hover{
 }
 
 menu{
-    display:block;
+    display:none; 
 }
 menu > ul{
     list-style-type:none;

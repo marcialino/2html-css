@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* Typical Device Breakpoint
+-----------------------------
+Pequenas telas: até 600px
+Celular: de 600px a 768
+Tablet: 768 até 992px
+Desktop: 992 até 1200px
+Grandes telas: acima de 1200px
+*/
+ /* a media screen com display: none, o hamburguer não aparece. */
+@media screen and (min-width:768px){
+    span#burguer{
+        display: none;
+    }
+    menu{
+        display: block;
+        margin-left: 40px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    menu > ul > li{
+      display: inline-block;
+      
+    }
+    main{
+        width: 768px; /*quando a tela crescer o texto não vai acompanhar. Isso facilita a leitura.*/
+    }
+}
